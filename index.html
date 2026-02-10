@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <title>MatteoCarDetailing</title>
+
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            color: white;
+
+            /* SFONDO */
+            background-image: url("sfondo.jpg.jpeg");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+
+        /* Overlay scuro per leggibilità */
+        .overlay {
+            min-height: 100vh;
+            background-color: rgba(0, 0, 0, 0.6);
+            padding: 40px 20px;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 48px;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        p {
+            text-align: center;
+            max-width: 600px;
+            margin: auto;
+        }
+
+        .btn {
+            display: block;
+            width: fit-content;
+            margin: 20px auto;
+            padding: 15px 25px;
+            background-color: #25D366;
+            color: white;
+            text-decoration: none;
+            border-radius: 30px;
+            font-weight: bold;
+        }
+
+        .cards {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top: 30px;
+        }
+
+        .card {
+            background: rgba(255, 255, 255, 0.15);
+            padding: 20px;
+            border-radius: 12px;
+            width: 250px;
+            text-align: center;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 60px;
+            font-size: 14px;
+            opacity: 0.8;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="overlay">
+        <h1>MatteoCarDetailing</h1>
+        <p>Car Detailing professionale ad Agosta (RM)</p>
+
+        <a class="btn" href="https://wa.me/393890247160" target="_blank">
+            Prenota su WhatsApp
+        </a>
+
+        <h2>Servizi</h2>
+        <div class="cards">
+            <div class="card">
+                <h3>Lavaggio Premium</h3>
+                <p>Pulizia profonda e sicura per ogni veicolo.</p>
+            </div>
+            <div class="card">
+                <h3>Lucidatura</h3>
+                <p>Recupero brillantezza e rimozione graffi.</p>
+            </div>
+            <div class="card">
+                <h3>Interni Detailing</h3>
+                <p>Igienizzazione completa degli interni.</p>
+            </div>
+        </div>
+
+        <h2>Perché scegliere me</h2>
+        <div class="cards">
+            <div class="card">
+                <h3>Passione vera</h3>
+                <p>Cura maniacale di ogni dettaglio.</p>
+            </div>
+            <div class="card">
+                <h3>Prodotti professionali</h3>
+                <p>Solo materiali di alta qualità.</p>
+            </div>
+            <div class="card">
+                <h3>Contatto diretto</h3>
+                <p>Parli direttamente con me.</p>
+            </div>
+        </div>
+
+        <footer>
+            © 2026 MatteoCarDetailing – Agosta (RM)
+        </footer>
+    </div>
+</body>
+</html>
